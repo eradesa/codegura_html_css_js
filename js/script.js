@@ -2,15 +2,36 @@
 document.getElementById("heading4").style.color = "purple";
 console.log('test2');
 
-myName='Eranga'
-console.log(myName)
-//alert(myName)
-num01 = 5
-num02 = 4
+// JS Variable Hoisting
+    // Automatic
+    myName='Eranga'
+    console.log(myName)
+    //alert(myName)
+    num01 = 5
+    num02 = 13
 
-total = num01 + num02
-console.log(total)
-document.getElementById("display01").textContent=total
+    total = num01 + num02
+    //console.log(total)
+    document.getElementById("display01").textContent=total
+
+
+    // var
+    var myName02 = 'Eranga2'
+
+    // let
+    let myName3 = "Eranga3"
+
+    // const
+
+// JS VARIABLE Scope
+function getTotal () {
+        var myAge= 49
+        console.log(total * myAge)
+        console.log(myAge)
+}
+getTotal()
+
+
 
 
 
