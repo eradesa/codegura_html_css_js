@@ -13,8 +13,6 @@ console.log('test2');
     total = num01 + num02
     //console.log(total)
     document.getElementById("display01").textContent=total
-
-
     // var
     var myName02 = 'Eranga2'
 
@@ -22,15 +20,20 @@ console.log('test2');
     let myName3 = "Eranga3"
 
     // const
+    const myWeight    =80
 
 // JS VARIABLE Scope
 function getTotal () {
+        myName2 = "Eranga31"
         var myAge= 49
         console.log(total * myAge)
         console.log(myAge)
+        console.log(myName2)
+        //myWeight = 90
+        console.log(myWeight);
 }
 getTotal()
-
+console.log(myName3)
 
 
 
