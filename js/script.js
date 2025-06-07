@@ -11,6 +11,7 @@ num02 = 4
 total = num01 + num02
 console.log(total)
 document.getElementById("display01").textContent=total
+123
 
 
 
