@@ -78,4 +78,29 @@ console.log(showReturn("Eranga"))
 let showResults = showReturn2("Erangaa")
 console.log(showResults)
 
+// If Statemenet
+const age = 25
+if (age>20) {
+    console.log("Adult")
+}
+else if (age>18) {
+    console.log("Teen")
+}
+else {
+    console.log("Kid")
+}
+
+// Switch Statement
+const car ='BYD'
+switch (car) {
+    case 'Toyota':
+        console.log("Made in Japan")
+        break
+    case 'BYD':
+        console.log("Made in China")
+        break
+    default:
+        console.log("Made in ..........")
+}
+
 
