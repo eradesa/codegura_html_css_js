@@ -37,15 +37,20 @@ function getTotal () {
 getTotal()
 console.log(myName3)
 
-    // Annonymous function
+    // Anonymous function
 const name = function (){
-        console.log("Eranga123")
+        console.log("Anonymous function")
 }
 
 name()
 
+// Anonymous Arrow Functions
+const getName = (parameter_variable) => {
+        console.log("Arrow Function " + parameter_variable )
+}
 
-// Arrow Functions
+getName("argument")
+
 
 
 
