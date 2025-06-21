@@ -45,12 +45,17 @@ const name = function (){
 name()
 
 // Anonymous Arrow Functions
-const getName = (parameter_variable) => {
-        console.log("Arrow Function " + parameter_variable )
+const getName = parameter_variable => {
+        console.log("Arrow Function " + parameter_variable)
 }
 
-getName("argument")
+getName(" single argument")
 
+const showName = (parameter_variable_01, parameter_variable_02) => {
+    console.log("Arrow Function " + parameter_variable_01 + " "+ parameter_variable_02)
+}
+
+showName("multiple argument1", "multiple argument2" )
 
 
 
