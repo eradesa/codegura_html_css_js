@@ -57,7 +57,14 @@ const showName = (parameter_variable_01, parameter_variable_02) => {
 
 showName("multiple argument1", "multiple argument2" )
 
+const numbers = [1,2,3,5,8,7]
+numbers.forEach(number  => {
+    console.log(number)
+})
 
+numbers.forEach((number,index)  => {
+    console.log(number,index)
+})
 
 
 
