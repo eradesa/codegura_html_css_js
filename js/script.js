@@ -23,6 +23,8 @@ console.log('test2');
     const myWeight    =80
 
 // JS VARIABLE Scope
+// JS Traditional Functions
+    // Named Functions
 function getTotal () {
         myName2 = "Eranga31"
         var myAge= 49
@@ -34,6 +36,18 @@ function getTotal () {
 }
 getTotal()
 console.log(myName3)
+
+    // Annonymous function
+const name = function (){
+        console.log("Eranga123")
+}
+
+name()
+
+
+// Arrow Functions
+
+
 
 
 
