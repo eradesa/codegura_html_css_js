@@ -51,7 +51,7 @@ const getName = parameter_variable => {
 
 getName(" single argument")
 
-const showName = (parameter_variable_01, parameter_variable_02) => {
+const showName = (parameter_variable_01, parameter_variable_02="Default123") => {
     console.log("Arrow Function " + parameter_variable_01 + " "+ parameter_variable_02)
 }
 
@@ -66,7 +66,16 @@ numbers.forEach((number,index)  => {
     console.log(number,index)
 })
 
+const showReturn = (par01) => {
+    return par01 + ' De Saram'
 
+}
+// Shortcut for single lines
+const showReturn2 = (par01) => par01 + ' De Saram'
 
+console.log(showReturn("Eranga"))
+// OR
+let showResults = showReturn2("Erangaa")
+console.log(showResults)
 
 
